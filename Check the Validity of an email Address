@@ -1,0 +1,8 @@
+import re
+s=input("Enter your Email Address")
+x=(re.search('[a-zA-Z]+[.]*[_0-9a-zA-Z]*@[a-zA-Z]+.[a-zA-z]+',s))
+print(x)
+if x:
+    print("your Email is vaild")
+else:
+    print("invalid email")
